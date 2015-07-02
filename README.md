@@ -4,6 +4,8 @@ A jQuery plugin that allows binding event handlers that should be executed conse
 
 ### Description
 
+*Bind two or more handlers to the matched elements, to be executed on alternate events.*
+
 `.toggleAction( eventType [, eventData ], handler ... )`
 
 ## Usage
