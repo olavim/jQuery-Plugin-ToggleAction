@@ -2,11 +2,11 @@
 
 A jQuery plugin that allows binding event handlers that should be executed consecutively when the event occurs in succession. I made this plugin to accommodate the deprecation of the [.toggle()](http://api.jquery.com/toggle-event/) function as of jQuery 1.8
 
-## Usage
+### Description
 
 `.toggleAction( eventType [, eventData ], handler ... )`
 
-## Examples
+## Usage
 
 Toggle an element's background color between red, blue and green every time the element is clicked:
 
