@@ -19,7 +19,7 @@ $('#element').toggleAction('click', function() {
     $(this).css({"background-color":"#0f0"});
 }, function() {
     $(this).css({"background-color":"#00f"});
-}
+});
 ```
     
 By default, bindings can be stacked; if you call .toggleAction() on an element multiple times with the same event type, the effects combine. For example, if you first called the function above, and then called
@@ -29,7 +29,7 @@ $('#element').toggleAction('click', function() {
     $(this).css({"color":"#000"});
 }, function() {
     $(this).css({"color":"#fff"});
-}
+});
 ```
     
 The element would toggle its background color between red, green and blue, and change the text color between black and white on every click.
@@ -41,5 +41,5 @@ $('#element').toggleAction('click', {
     clear: true
 }, function() {
     ...
-}
+});
 ```
